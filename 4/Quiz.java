@@ -27,12 +27,12 @@ public class Quiz {
     else
 	if ( answr < randomNum ) { 
 			System.out.print("Try hihger! "); 
-			if ( MIN < answr ) MIN=answr+1;
+			if ( MIN <= answr ) MIN=answr+1;
 			} 	
 	else
 	if ( answr > randomNum ) { 
 			System.out.print("Try lower! "); 
-			if ( MAX > answr ) MAX=answr-1;
+			if ( MAX >= answr ) MAX=answr-1;
 			} 	
 		
     }
